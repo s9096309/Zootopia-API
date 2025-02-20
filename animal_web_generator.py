@@ -56,7 +56,7 @@ template_file = "animals_template.html"
 output_file = "animals.html"
 
 # Get animal name from the user
-animal_name = input("Enter a name of an animal: ")  # Correct placement
+animal_name = input("Enter a name of an animal: ")
 animal_data = data_fetcher.fetch_data(animal_name)
 
 
